@@ -1,0 +1,173 @@
+body {
+    background-color: black;
+    width: 100%;
+    position: relative;
+    top: 62px;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: Helvetica;
+    color: seashell;
+    font-weight: bolder;
+}
+
+p {
+    font-family: Helvetica;
+    color: seashell;
+}
+
+header {
+    height: 69px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+    z-index: 10;
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+nav {
+    display: inline-flex;
+    margin-right: 10px;
+}
+
+nav p {
+    text-decoration: underline;
+    margin: 0 15px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+a:link, a:visited {
+    color: seashell;
+}
+
+a:hover {
+    color: purple;
+}
+
+a:active {
+    color: magenta;
+}
+
+.logo img {
+    height: 50px;
+    margin-left: 10px;
+}
+
+.jumbotron {
+    background-color: aqua;
+    width: 1200px;
+    display: flex;
+    position: relative;
+    margin: 0 auto 80px;
+}
+
+.jumbotron img {
+    width: 1200px;
+    height: 700px;
+    object-fit: cover;
+}
+
+.jumbotron .jumbotron-overlay {
+    position: absolute;
+    top: 50%;
+    translate: 0 -50%;
+    background-color: black;
+    width: 1200px;
+    text-align: center;
+}
+
+.totm {
+    width: 1000px;
+    margin: 0 auto 80px;
+    text-align: center;
+}
+
+.totm-panel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.totm-panel div {
+    text-align: center;
+    margin: 0 15px;
+}
+
+.totm-panel img {
+    height: 200px;
+    width: 300px;
+}
+
+.totm-panel p {
+    font-size: 22px;
+    font-weight: bold;
+    position: relative;
+    bottom: 20px;
+}
+
+.locations {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.locations img {
+    width: 1200px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.locations-title {
+    position: absolute;
+    top: 15px;
+    width: 100%;
+    text-align: center;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.location-panels {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    width: 980px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.locations-panel p {
+    width: 100%;
+}
+
+.locations-panel {
+    background-color: black;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+#title {
+    font-weight: 900;
+}
+
+footer .contact {
+    width: 100%;
+    text-align: center;
+}
+
+footer p {
+    font-weight: bold;
+    position: relative;
+    bottom: 5px;
+    left: 5px;
+}
